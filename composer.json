@@ -1,0 +1,41 @@
+{
+    "name": "dmsylvio/settingtest",
+    "description": "Test of settings page.",
+    "type": "craft-plugin",
+    "version": "1.2.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "settingtest"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvio Neto",
+            "homepage": "https://github.com/dmsylvio"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "dmsylvio\\settingtest\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "SettingTest",
+        "handle": "settingTest",
+        "version": "0.0.1",
+        "schemaVersion": "0.0.1",
+        "hasSettings": true,
+        "hasCpSection": true,
+        "developer": "Sylvio Neto",
+        "developerUrl": "https://github.com/dmsylvio",
+        "description": "Test of settings page.",
+        "documentationUrl": "https://github.com/dmsylvio/timeago/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/dmsylvio/timeago/master/CHANGELOG.md",
+        "class": "dmsylvio\\settingtest\\SettingTest"
+    }
+}
